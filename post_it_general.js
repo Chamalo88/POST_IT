@@ -1,1 +1,0 @@
-let mypost_it= new post_it()
