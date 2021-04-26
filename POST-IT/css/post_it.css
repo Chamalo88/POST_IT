@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 245, 77);
+    border: solid, rgb(3, 69, 144), 2px;
+    border-radius: 15px;
+
+
+}
+
+
+h1{
+    font-size:1cm;
+    text-align: center;
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+#contener{
+  background-color: rgb(233, 232, 232);
+  
+    
+}
+
+.post_it{
+font-family: cursive;
+color:black;
+font-size: 0.8cm;
+
+}
+
+
