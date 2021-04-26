@@ -3,10 +3,12 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(234, 245, 77);
-    border: solid, rgb(3, 69, 144), 2px;
+    background-image:url(../img/fond.png);
+    border: solid;
+    border-color: blueviolet;
     border-radius: 15px;
-
+    width: 400px;
+    height: 160px;
 
 }
 
@@ -22,7 +24,7 @@ h1{
 
 
 #contener{
-  background-color: rgb(254, 255, 254);
+  background-image : url(../img/fond.jpg); 
   
     
 }
@@ -31,7 +33,47 @@ h1{
 font-family: cursive;
 color:black;
 font-size: 0.8cm;
+text-align: center;
 
 }
+.boutons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+
+#bout1{
+  background-color:yellow ;
+  size:1cm;
+  width: 80px;
+  height: 50px;
+  border-radius: 50px;
+  border-color: blueviolet;
+}
+
+
+#bout2{
+  background-color:pink ;
+  size:1cm;
+  width: 80px;
+  height: 50px;
+  border-radius: 50px;
+  border-color: blueviolet;
+}
+
+#bout3{
+  background-color:chartreuse ;
+  size:1cm;
+  width: 80px;
+  height: 50px;
+  border-radius: 50px;
+  border-color: blueviolet;
+
+}
+
 
 

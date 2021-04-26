@@ -9,23 +9,24 @@ y
 
  constructor (){
     this.texte=""
-    this.Height=120
-    this.Width=120
-    this.couleur="yellow"
-    this.x=150
-    this.y=150
+    this.Height="100"
+    this.Width="100"
+    this.couleur="chartreuse"
+    this.x="600"
+    this.y="600"
 
  }
  
  
 affiche() {
-   
-    let contener = document.getElementById('contener')
     
-  
+    let contener = document.getElementById('contener')
+   
+   
     let monElem = document.createElement('div');
     monElem.classList.add("post_it")
- 
+  
+   
     monElem.innerHTML=this.texte
     monElem.style.top=this.y +"px"
     monElem.style.left=this.x +"px"
@@ -35,9 +36,10 @@ affiche() {
     
     monElem.style.position="fixed"
   
- 
+    
     contener.appendChild(monElem)
-}
+
+    }
 redim(L,H){
                 this.Width=L
                 this.Height=H
@@ -59,5 +61,6 @@ inseretexte(text){
 
 
 }
-}
 
+
+}
