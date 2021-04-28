@@ -1,0 +1,52 @@
+body{
+background-image: url(../img/fond.jpg);
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(../img/fond.png);
+    border: solid;
+    border-color:purple;
+    border-radius: 15px;
+    width: 400px;
+    height: 160px;
+
+}
+
+
+h1{
+    font-size:1cm;
+    text-align: center;
+    color:purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+#contener{
+  background-image : url(../img/fond.jpg); 
+  background-size: 5% 5%;
+    
+}
+
+.post_it{
+font-family: cursive;
+color:black;
+font-size: 0.8cm;
+text-align: center;
+
+}
+
+
+
+
+
