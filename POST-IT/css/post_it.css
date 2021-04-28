@@ -1,3 +1,12 @@
+body{
+background-image: url(../img/fond.jpg);
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+
+
 header{
     display: flex;
     flex-direction: column;
@@ -5,7 +14,7 @@ header{
     align-items: center;
     background-image:url(../img/fond.png);
     border: solid;
-    border-color: blueviolet;
+    border-color:purple;
     border-radius: 15px;
     width: 400px;
     height: 160px;
@@ -16,7 +25,7 @@ header{
 h1{
     font-size:1cm;
     text-align: center;
-    color: blueviolet;
+    color:purple;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
@@ -25,7 +34,7 @@ h1{
 
 #contener{
   background-image : url(../img/fond.jpg); 
-  
+  background-size: 5% 5%;
     
 }
 
@@ -36,44 +45,8 @@ font-size: 0.8cm;
 text-align: center;
 
 }
-.boutons{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  
-
-}
 
 
-#bout1{
-  background-color:yellow ;
-  size:1cm;
-  width: 80px;
-  height: 50px;
-  border-radius: 50px;
-  border-color: blueviolet;
-}
-
-
-#bout2{
-  background-color:pink ;
-  size:1cm;
-  width: 80px;
-  height: 50px;
-  border-radius: 50px;
-  border-color: blueviolet;
-}
-
-#bout3{
-  background-color:chartreuse ;
-  size:1cm;
-  width: 80px;
-  height: 50px;
-  border-radius: 50px;
-  border-color: blueviolet;
-
-}
 
 
 

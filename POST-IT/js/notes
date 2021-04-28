@@ -1,0 +1,42 @@
+let tabpostit=[]
+function getRandomInt(){
+return Math.floor(Math.random()*200);
+
+
+}
+
+document.querySelector("ajoutpostitjaune").onclick=function affiche(){
+let postitplus = new post_it ("a"+tabpostit.length)
+tabpostit.push(postitplus)
+
+postitplus=couleurmodif("yellow")
+postitplus.affiche()
+
+}
+document.querySelector("ajoutpostitrose").onclick=function affiche(){
+    let postitplus = new post_it ("a"+tabpostit.length)
+    tabpostit.push(postitplus)
+    
+    postitplus=couleurmodif("pink")
+    postitplus.affiche()
+   
+      
+}
+document.querySelector("ajoutpostitvert").onclick=function affiche(){
+    let postitplus = new post_it ("a"+tabpostit.length)
+    tabpostit.push(postitplus)
+    
+    postitplus=couleurmodif("chartreuse")
+    postitplus.affiche()
+   
+      
+}
+
+
+        
+couleurmodif(coul){
+    document.getElementById(this.id).style.backgroundColor="coul";
+
+}
+
+
