@@ -18,6 +18,7 @@ header{
     border-radius: 15px;
     width: 400px;
     height: 160px;
+    
 
 }
 
@@ -38,15 +39,45 @@ h1{
     
 }
 
-.post_it{
-font-family: cursive;
-color:black;
-font-size: 0.8cm;
-text-align: center;
+#bout{
+  font-size:1cm;
+    text-align: center;
+    color:black;
+    font-family: cursive;
+    margin-bottom: 25px;
+   
 
 }
+#boutplusJ{
 
+  font-size:0.5cm;
+    text-align: center;
+    color:black;
+    background-color: yellow;
+    width: 40px;
+    height: 45px;
+    border-color: yellow;
+}
+#boutplusR{
 
+  font-size:0.5cm;
+    text-align: center;
+    color:black;
+    background-color: pink;
+    width: 40px;
+    height: 45px;
+    border-color: pink;
+}
+#boutplusB{
 
+  font-size:0.5cm;
+    text-align: center;
+    color:black;
+    background-color: paleturquoise ;
+    width: 40px;
+    height: 45px;
+    border-color: paleturquoise;
+   
+}
 
 
