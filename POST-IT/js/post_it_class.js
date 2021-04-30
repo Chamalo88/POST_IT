@@ -1,6 +1,6 @@
 /**
  * @ Virginie Ley
- * @version 1.0
+ * @ version 1.0
  * @ classe de postit
  *
  */
@@ -150,7 +150,10 @@ couleurmodif(coul){
                 
                 
                 
-
+/**
+ * Fonction de insertion de texte du postit
+ * @param {string} text
+ */
 
 inseretexte(text){
                 this.texte=text
@@ -158,4 +161,13 @@ inseretexte(text){
 
 }
 
+
+majPostit(){
+    this.x
+    this.y
+    this.couleur
+    this.Height
+    this.Width
+    this.texte
+}
 }
